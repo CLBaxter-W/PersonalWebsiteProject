@@ -8,10 +8,6 @@
   width: 95%;
 }
 
-.bannerHeader {
-  float: inline-start;
-}
-
 .bannerLink {
   font-size: large;
   float: inline-end;
