@@ -10,14 +10,48 @@
     <!-- define the script to create the string to display -->
     <script src="./javascript.js"></script>
   </head>
-  <body>
-    <div>
-      <div class="banner">
-        <span>Catherine L. Baxter</span>
-        <a href="./index.html" class="bannerLink">Home</a>
-        <a href="./about.html" class="bannerLink">About</a>
-        <a href="./portfolio.html" class="bannerLink">Portfolio</a>
-      </div>
+  <body class="wholeBodyStyle">
+    <!-- Banner across all three pages  -- Can this be a class that is written once and lives on all the pages?-->
+    <div class="banner">
+      <span>Catherine L. Baxter</span>
+      <a
+        href="./index.html"
+        class="bannerLink"
+        onclick="iWantToPrintThePageName('homePage')"
+        >Home</a
+      >
+      <a
+        href="./about.html"
+        class="bannerLink"
+        onclick="iWantToPrintThePageName('aboutPage')"
+        >About</a
+      >
+      <a
+        href="./portfolio.html"
+        class="bannerLink"
+        onclick="iWantToPrintThePageName('portfolioPage')"
+        >Portfolio</a
+      >
     </div>
+
+    <!-- Body Container Holds all the lovely items for display -->
+    <main class="mainLayoutStyle">
+      <div>Change your thoughts, change your world</div>
+      <div>
+        <img
+          src="./photo_repository/IMG_Cathy20XX.jpeg"
+          alt="Personal Photo"
+          class="myPic"
+        />
+      </div>
+
+      <div>Ride the Lightening</div>
+      <div>Interested in solving the puzzle</div>
+      <div>
+        Interested in improving how people accomplish their goals, work goals,
+        work flow ,...
+      </div>
+      <div></div>
+    </main>
   </body>
 </html>
