@@ -22,14 +22,30 @@
   display: flex;
 }
 
-.theQuote {
+.mainFlexContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.myQuote {
   width: 50%;
   padding: 20px;
   margin: auto;
+  float: left;
+  border-style: inset;
+  border: width 10px;
+  border-color: rgb(175, 211, 201);
+  border-radius: 5px;
+  background-color: rgb(175, 211, 201);
+  font-family: fantasy;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: rgb(19, 19, 92);
 }
 
 .myPic {
-  width: 270px;
+  width: 250px;
   height: 190px;
   max-width: auto;
   max-height: auto;
@@ -41,6 +57,19 @@
 }
 
 .myIntro {
+  width: 50%;
+  padding: 20px;
+  margin: auto;
+  float: right;
+  border-style: inset;
+  border: width 10px;
+  border-color: rgb(175, 211, 201);
+  border-radius: 5px;
+  background-color: rgb(175, 211, 201);
+  font-family: fantasy;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: rgb(19, 19, 92);
 }
 
 .banner {
