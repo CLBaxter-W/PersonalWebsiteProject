@@ -1,75 +1,11 @@
 .wholeBodyStyle {
-  background: url("./photo_repository/IMG_WaterLily.jpeg");
+  background: url("./photo_repository/IMG_WaterLily-2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; /*contain */
   background-position: center;
   width: 95%;
   height: 95%;
-}
-
-.bodyStyle {
-  /* background-color: rgb(3, 84, 62); */
-  width: 100%;
-  height: 100%;
-}
-
-.mainLayoutStyle {
-  /* background-color: rgb(23, 158, 160); */
-  width: 95%;
-  padding: 20px;
-  margin: auto;
-  display: flex;
-}
-
-.mainFlexContainer {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-}
-
-.myQuote {
-  width: 50%;
-  padding: 20px;
-  margin: auto;
-  float: left;
-  border-style: inset;
-  border: width 10px;
-  border-color: rgb(175, 211, 201);
-  border-radius: 5px;
-  background-color: rgb(175, 211, 201);
-  font-family: fantasy;
-  font-weight: bolder;
-  font-size: xx-large;
-  color: rgb(19, 19, 92);
-}
-
-.myPic {
-  width: 250px;
-  height: 190px;
-  max-width: auto;
-  max-height: auto;
-  float: right;
-  border-style: inset;
-  border: width 10px;
-  border-color: rgb(175, 211, 201);
-  border-radius: 5px;
-}
-
-.myIntro {
-  width: 50%;
-  padding: 20px;
-  margin: auto;
-  float: right;
-  border-style: inset;
-  border: width 10px;
-  border-color: rgb(175, 211, 201);
-  border-radius: 5px;
-  background-color: rgb(175, 211, 201);
-  font-family: fantasy;
-  font-weight: bolder;
-  font-size: xx-large;
-  color: rgb(19, 19, 92);
 }
 
 .banner {
@@ -81,6 +17,9 @@
   padding: 20px;
   width: 95%;
   margin: auto;
+  border-radius: 5px;
+  border-style: ridge;
+  border-color: rgb(175, 211, 201);
 }
 
 .bannerLink {
@@ -90,6 +29,91 @@
   margin: 5px 5px 5px 5px;
 }
 
-.bannerFooter {
-  position: fixed;
+.mainLayoutStyle {
+  width: 85vw;
+  padding: 1vw;
+  margin: auto;
+}
+
+.mainBlockContainer {
+  display: block;
+  position: relative;
+  width: 85vw;
+  height: 85vh;
+}
+
+.myQuote {
+  width: 40%;
+  padding: 10px;
+  margin: auto;
+  border: 2px inset rgb(175, 211, 201);
+  border-radius: 10px;
+  background-color: rgb(175, 211, 201);
+  font-family: fantasy;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: rgb(19, 19, 92);
+  position: absolute;
+  top: 1%;
+  left: 1%;
+}
+
+.myPic {
+  width: 250px;
+  height: 190px;
+  max-width: auto;
+  max-height: auto;
+  border: 2px inset rgb(175, 211, 201);
+  border-radius: 5px;
+  position: absolute;
+  top: 25%;
+  right: 30%;
+  z-index: 1;
+}
+
+.myIntro {
+  width: 40%;
+  padding: 10px;
+  margin: auto;
+  border: 2px inset rgb(175, 211, 201);
+  border-radius: 5px;
+  background-color: rgb(175, 211, 201);
+  font-family: fantasy;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: rgb(19, 19, 92);
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+  z-index: 2;
+}
+
+.myPic2 {
+  top: 25%;
+  right: 30%;
+  z-index: 1;
+}
+
+.myAbout1 {
+  top: 1%;
+  left: 1%;
+  z-index: 2;
+}
+.myAbout2 {
+  bottom: 1%;
+  right: 1%;
+  z-index: 2;
+}
+
+.myPortfolio {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  border: 2px inset rgb(175, 211, 201);
+  border-radius: 5px;
+  background-color: rgb(175, 211, 201);
+  font-family: fantasy;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: rgb(19, 19, 92);
 }
